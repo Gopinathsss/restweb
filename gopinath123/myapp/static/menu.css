@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(menubackground.png);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    line-height: 1.6;
+}
+h2{
+    color: rgb(137, 6, 224);
+}
+h3{
+    color: rgb(46, 25, 235);
+}
+.list,ul,li{
+    display: inline;
+    background-color: white;
+}
+li:hover{
+    background-color: lightgrey;
+}
+h1{
+    color: rgb(212, 7, 127);
+    background-color: rgb(14, 197, 230);
+}
+
+.food{
+    border: 2px solid pink;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(142, 5, 221);
+    display: inline-block;
+}
+.food:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.food-item h3{
+    color: white;
+}

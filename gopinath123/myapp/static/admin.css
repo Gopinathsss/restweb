@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(14, 240, 6);
+    color: red;
+    line-height: 1.6;
+    text-align: center;
+}
+.member{
+    border: 2px solid rgb(11, 66, 216);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(233, 218, 248);
+    display: inline-block;
+}
+.member:hover{
+    background-color: rgb(83, 13, 66);
+    color: rgb(221, 157, 162);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.list,ul,li{
+    display: inline;
+    background-color: white;
+}
+li:hover{
+    background-color: lightgrey;
+}
+.team{
+    background-color: rgb(224, 9, 142);
+}
